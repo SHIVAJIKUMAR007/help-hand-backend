@@ -1,7 +1,10 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/daspDb", {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  "mongodb+srv://shivaji:Shivaji@007@cluster0.narig.mongodb.net/helphand?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+  }
+);
